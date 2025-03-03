@@ -3,7 +3,7 @@
   <img src="palm_main.png" alt="Palm Dataset main image">
 </p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Guidelines](https://img.shields.io/badge/Guidelines-Read-green.svg)](guidelines.md)
 [![Examples](https://img.shields.io/badge/Examples-View-orange.svg)](examples.md)
@@ -113,7 +113,7 @@ If you use this dataset or code in your research, please cite:
 ```
 
 ## 📄 License
-This project is licensed under the MIT License.
+This project is licensed under the CC-BY-NC-ND-4.0 License.
 
 ## 🤝 Contact
 For questions or feedback, please open an issue on this repository.
