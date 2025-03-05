@@ -7,11 +7,19 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Guidelines](https://img.shields.io/badge/Guidelines-Read-green.svg)](guidelines.md)
 [![Examples](https://img.shields.io/badge/Examples-View-orange.svg)](examples.md)
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-yellow.svg)](https://huggingface.co/datasets/UBC-NLP/palm)
 
 This repository contains evaluation tools for the *Palm* dataset — a **C**ulturally **I**nclusive and **L**inguistically **D**iverse dataset for Arabic LLMs.
 
 ## 🌟 Overview
 The Palm dataset provides a comprehensive benchmark for evaluating the performance of Large Language Models on Arabic language tasks across diverse dialects and cultural contexts. This repository focuses on the evaluation pipeline using the test set portion of the Palm dataset.
+
+## 🔍 Dataset Access
+You can access the dataset on Hugging Face:
+```python
+from datasets import load_dataset
+dataset = load_dataset("UBC-NLP/palm")
+```
 
 ## 🛠️ Requirements
 - Python 3.8+
@@ -110,6 +118,15 @@ python judge.py \
 ## 📝 Citation
 If you use this dataset or code in your research, please cite:
 ```bibtex
+@misc{alwajih2025palmculturallyinclusivelinguistically,
+      title={Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs}, 
+      author={Fakhraddin Alwajih and Abdellah El Mekki and Samar Mohamed Magdy and Abdelrahim A. Elmadany and Omer Nacar and El Moatez Billah Nagoudi and Reem Abdel-Salam and Hanin Atwany and Youssef Nafea and others},
+      year={2025},
+      eprint={2503.00151},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.00151}, 
+}
 ```
 
 ## 📄 License
